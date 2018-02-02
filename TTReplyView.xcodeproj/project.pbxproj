@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F3F443E21A494E0F6DA18BD /* Pods_TTReplyView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CB6B95FD06E57FBA472CC6 /* Pods_TTReplyView.framework */; };
 		E00EB2812024435300F8B5BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E00EB2802024435300F8B5BB /* AppDelegate.m */; };
 		E00EB2842024435300F8B5BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00EB2832024435300F8B5BB /* ViewController.m */; };
 		E00EB2872024435300F8B5BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00EB2852024435300F8B5BB /* Main.storyboard */; };
 		E00EB2892024435300F8B5BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00EB2882024435300F8B5BB /* Assets.xcassets */; };
 		E00EB28C2024435300F8B5BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00EB28A2024435300F8B5BB /* LaunchScreen.storyboard */; };
 		E00EB28F2024435300F8B5BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E00EB28E2024435300F8B5BB /* main.m */; };
+		E00EB2972024438500F8B5BB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00EB2962024438500F8B5BB /* TableViewController.m */; };
+		E00EB29A2024445100F8B5BB /* TTReplyView.m in Sources */ = {isa = PBXBuildFile; fileRef = E00EB2992024445100F8B5BB /* TTReplyView.m */; };
+		E00EB29D202444A100F8B5BB /* TTRepleyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E00EB29C202444A100F8B5BB /* TTRepleyTableView.m */; };
+		E00EB2A0202463F400F8B5BB /* TTReplyBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = E00EB29F202463F400F8B5BB /* TTReplyBottomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E82A005188D203C15BC230F /* Pods-TTReplyView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTReplyView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTReplyView/Pods-TTReplyView.release.xcconfig"; sourceTree = "<group>"; };
+		6DA768B22455735EF40E98C0 /* Pods-TTReplyView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTReplyView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTReplyView/Pods-TTReplyView.debug.xcconfig"; sourceTree = "<group>"; };
 		E00EB27C2024435300F8B5BB /* TTReplyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTReplyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00EB27F2024435300F8B5BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E00EB2802024435300F8B5BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,15 @@
 		E00EB28B2024435300F8B5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E00EB28D2024435300F8B5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E00EB28E2024435300F8B5BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E00EB2952024438500F8B5BB /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E00EB2962024438500F8B5BB /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		E00EB2982024445100F8B5BB /* TTReplyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTReplyView.h; sourceTree = "<group>"; };
+		E00EB2992024445100F8B5BB /* TTReplyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTReplyView.m; sourceTree = "<group>"; };
+		E00EB29B202444A100F8B5BB /* TTRepleyTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTRepleyTableView.h; sourceTree = "<group>"; };
+		E00EB29C202444A100F8B5BB /* TTRepleyTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTRepleyTableView.m; sourceTree = "<group>"; };
+		E00EB29E202463F400F8B5BB /* TTReplyBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTReplyBottomView.h; sourceTree = "<group>"; };
+		E00EB29F202463F400F8B5BB /* TTReplyBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTReplyBottomView.m; sourceTree = "<group>"; };
+		E3CB6B95FD06E57FBA472CC6 /* Pods_TTReplyView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTReplyView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F3F443E21A494E0F6DA18BD /* Pods_TTReplyView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		766A728584BB9A0F260EAEAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DA768B22455735EF40E98C0 /* Pods-TTReplyView.debug.xcconfig */,
+				3E82A005188D203C15BC230F /* Pods-TTReplyView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		917C7FF85CEC966F4C1318B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3CB6B95FD06E57FBA472CC6 /* Pods_TTReplyView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E00EB2732024435300F8B5BB = {
 			isa = PBXGroup;
 			children = (
 				E00EB27E2024435300F8B5BB /* TTReplyView */,
 				E00EB27D2024435300F8B5BB /* Products */,
+				766A728584BB9A0F260EAEAE /* Pods */,
+				917C7FF85CEC966F4C1318B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +98,14 @@
 				E00EB2802024435300F8B5BB /* AppDelegate.m */,
 				E00EB2822024435300F8B5BB /* ViewController.h */,
 				E00EB2832024435300F8B5BB /* ViewController.m */,
+				E00EB2952024438500F8B5BB /* TableViewController.h */,
+				E00EB2962024438500F8B5BB /* TableViewController.m */,
+				E00EB2982024445100F8B5BB /* TTReplyView.h */,
+				E00EB2992024445100F8B5BB /* TTReplyView.m */,
+				E00EB29E202463F400F8B5BB /* TTReplyBottomView.h */,
+				E00EB29F202463F400F8B5BB /* TTReplyBottomView.m */,
+				E00EB29B202444A100F8B5BB /* TTRepleyTableView.h */,
+				E00EB29C202444A100F8B5BB /* TTRepleyTableView.m */,
 				E00EB2852024435300F8B5BB /* Main.storyboard */,
 				E00EB2882024435300F8B5BB /* Assets.xcassets */,
 				E00EB28A2024435300F8B5BB /* LaunchScreen.storyboard */,
@@ -78,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E00EB2922024435300F8B5BB /* Build configuration list for PBXNativeTarget "TTReplyView" */;
 			buildPhases = (
+				21CDD377582FE2E41066C9BF /* [CP] Check Pods Manifest.lock */,
 				E00EB2782024435300F8B5BB /* Sources */,
 				E00EB2792024435300F8B5BB /* Frameworks */,
 				E00EB27A2024435300F8B5BB /* Resources */,
+				58C3BCE3D7CC078E86444B84 /* [CP] Embed Pods Frameworks */,
+				F545A50254D07B6E57286165 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +184,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21CDD377582FE2E41066C9BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58C3BCE3D7CC078E86444B84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTReplyView/Pods-TTReplyView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F545A50254D07B6E57286165 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTReplyView/Pods-TTReplyView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E00EB2782024435300F8B5BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E00EB29D202444A100F8B5BB /* TTRepleyTableView.m in Sources */,
+				E00EB29A2024445100F8B5BB /* TTReplyView.m in Sources */,
 				E00EB2842024435300F8B5BB /* ViewController.m in Sources */,
 				E00EB28F2024435300F8B5BB /* main.m in Sources */,
+				E00EB2A0202463F400F8B5BB /* TTReplyBottomView.m in Sources */,
 				E00EB2812024435300F8B5BB /* AppDelegate.m in Sources */,
+				E00EB2972024438500F8B5BB /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,27 +375,33 @@
 		};
 		E00EB2932024435300F8B5BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA768B22455735EF40E98C0 /* Pods-TTReplyView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJQUESVSJH;
 				INFOPLIST_FILE = TTReplyView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cckv.TTReplyView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		E00EB2942024435300F8B5BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E82A005188D203C15BC230F /* Pods-TTReplyView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJQUESVSJH;
 				INFOPLIST_FILE = TTReplyView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cckv.TTReplyView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
